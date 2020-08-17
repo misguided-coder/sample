@@ -20,6 +20,11 @@ public class CalculatorServiceTest {
 	}	
 
 	@Test
+	public void addTwoNumbers(){
+		assertEquals(20,service.doSum(10,10));
+	}	
+
+	@Test
 	public void testSum(){
 		assertEquals(15,service.doSum(10,5));
 	}	
